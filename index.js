@@ -92,7 +92,7 @@ window.onload = function () {
     L.polyline(
         latlngs,
         { color: 'blue' }
-    ).addTo(map).bindPopup('Rutas de Mi casa a la Universidad de la Amazonia');
+    ).addTo(map).bindPopup('Rutas de mi casa a la Universidad de la Amazonia');
 
 
 
