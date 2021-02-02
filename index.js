@@ -74,7 +74,7 @@ window.onload = function () {
         fillColor: '#CB2B3E'
     }).addTo(map);
 
-
+//linea 
     L.marker([1.6094742834417415, -75.60370540672196], { icon: OrangeIcon })
         .addTo(map).bindPopup("MY HOUSE");
     var pointA = new L.latLng(1.6094742834417415, -75.60370540672196),
@@ -88,7 +88,7 @@ window.onload = function () {
     pointJ = new L.latLng(1.6200837341624994, -75.60449474346811)
     pointK = new L.latLng(1.6203936308083184, -75.60425026084518);
 
-    var latlngs = [pointA, pointB, pointC, pointD, pointE, pointF, pointG, pointH,pointJ,pointK];
+    var latlngs = [pointA, pointB, pointC, pointD, pointE, pointF, pointG, pointH, pointJ, pointK];
     L.polyline(
         latlngs,
         { color: 'blue' }
